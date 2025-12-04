@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-27T08:28:15 IST" name="Default suite" finished-at="2025-11-27T08:28:17 IST" duration-ms="2609">
+  <suite started-at="2025-12-04T08:06:49 IST" name="Default suite" finished-at="2025-12-04T08:06:52 IST" duration-ms="2249">
     <groups>
     </groups>
-    <test started-at="2025-11-27T08:28:15 IST" name="Default test" finished-at="2025-11-27T08:28:17 IST" duration-ms="2609">
-      <class name="APIKEY">
-        <test-method signature="getapikeymethod()[pri:0, instance:APIKEY@49438269]" started-at="2025-11-27T08:28:15 IST" name="getapikeymethod" finished-at="2025-11-27T08:28:17 IST" duration-ms="2559" status="PASS">
+    <test started-at="2025-12-04T08:06:49 IST" name="Default test" finished-at="2025-12-04T08:06:52 IST" duration-ms="2249">
+      <class name="QueryRequestSpecification">
+        <test-method signature="requestspecification()[pri:0, instance:QueryRequestSpecification@49438269]" started-at="2025-12-04T08:06:49 IST" name="requestspecification" finished-at="2025-12-04T08:06:52 IST" duration-ms="2203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getapikeymethod -->
-      </class> <!-- APIKEY -->
+        </test-method> <!-- requestspecification -->
+      </class> <!-- QueryRequestSpecification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

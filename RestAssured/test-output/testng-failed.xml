@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="APIKEY">
+      <class name="Deseralization">
         <methods>
-          <include name="getapikeymethod"/>
+          <include name="convertJsonToClassObject"/>
         </methods>
-      </class> <!-- APIKEY -->
+      </class> <!-- Deseralization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
