@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="xmldata">
+      <class name="Serialization_and_Deserialization">
         <methods>
-          <include name="getpetxml"/>
+          <include name="sentempjsoncreated"/>
         </methods>
-      </class> <!-- xmldata -->
+      </class> <!-- Serialization_and_Deserialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
