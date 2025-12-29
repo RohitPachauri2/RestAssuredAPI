@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-25T22:09:13 IST" name="Default suite" finished-at="2025-12-25T22:09:19 IST" duration-ms="5990">
+  <suite started-at="2025-12-29T07:46:37 IST" name="Default suite" finished-at="2025-12-29T07:46:37 IST" duration-ms="321">
     <groups>
     </groups>
-    <test started-at="2025-12-25T22:09:13 IST" name="Default test" finished-at="2025-12-25T22:09:19 IST" duration-ms="5990">
-      <class name="Serialization_and_Deserialization">
-        <test-method signature="CreatEempJsonFromEmpClass()[pri:1, instance:Serialization_and_Deserialization@24aed80c]" started-at="2025-12-25T22:09:13 IST" name="CreatEempJsonFromEmpClass" finished-at="2025-12-25T22:09:14 IST" duration-ms="543" status="PASS">
+    <test started-at="2025-12-29T07:46:37 IST" name="Default test" finished-at="2025-12-29T07:46:37 IST" duration-ms="321">
+      <class name="Serialization_Deserialization_part2">
+        <test-method signature="SerDesJson()[pri:0, instance:Serialization_Deserialization_part2@2aceadd4]" started-at="2025-12-29T07:46:37 IST" name="SerDesJson" finished-at="2025-12-29T07:46:37 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreatEempJsonFromEmpClass -->
-        <test-method signature="SentEmpJsonCreated()[pri:2, instance:Serialization_and_Deserialization@24aed80c]" started-at="2025-12-25T22:09:14 IST" name="SentEmpJsonCreated" finished-at="2025-12-25T22:09:19 IST" duration-ms="5339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SentEmpJsonCreated -->
-      </class> <!-- Serialization_and_Deserialization -->
+        </test-method> <!-- SerDesJson -->
+      </class> <!-- Serialization_Deserialization_part2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
