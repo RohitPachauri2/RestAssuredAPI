@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Serialization_Deserialization_part2">
+      <class name="Ignore_Null_Default_Empty_in_Payload">
         <methods>
-          <include name="SerDesJson"/>
+          <include name="SetDatainPojo"/>
         </methods>
-      </class> <!-- Serialization_Deserialization_part2 -->
+      </class> <!-- Ignore_Null_Default_Empty_in_Payload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,18 +1,50 @@
+import java.util.Map;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+//@JsonInclude(Include.NON_DEFAULT)
+//@JsonInclude(Include.NON_NULL)
+@JsonInclude(Include.NON_EMPTY)
 public class Employee {
 private String firstname;
 private String lastname;
 private String gender;
 private int age;	
 private double salary;
+private String[] arr;
+private Map<String,String>map;
+
+public Map<String, String> getMap() {
+	return map;
+}
+
+
+
+public void setMap(Map<String, String> map) {
+	this.map = map;
+}
+
+
 
 public String getFirstname() {
 	return firstname;
 }
 
 
+
 public void setFirstname(String firstname) {
 	this.firstname = firstname;
+}
+
+public String[] getarr() {
+	return arr;
+}
+
+
+
+public void setarr(String[] arr) {
+	this.arr = arr;
 }
 
 
