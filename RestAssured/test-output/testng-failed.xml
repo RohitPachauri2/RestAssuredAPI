@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Ignore_Null_Default_Empty_in_Payload">
+      <class name="JsonIgnoreField">
         <methods>
-          <include name="SetDatainPojo"/>
+          <include name="CreateEmployeeClass"/>
         </methods>
-      </class> <!-- Ignore_Null_Default_Empty_in_Payload -->
+      </class> <!-- JsonIgnoreField -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
