@@ -20,6 +20,7 @@ public class JsonObjectusingJavaMap {
 
 		Response res = given().baseUri(baseuri).header("Content-Type", "application/json").body(authtoken).when()
 				.post(basepath);
+		
 		res.prettyPrint();
 		String token = res.jsonPath().getString("token");
 		Assert.assertEquals(res.getStatusCode(), 200);

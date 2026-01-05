@@ -52,6 +52,7 @@ public class JsonArray {
 		res.prettyPrint();
 
 		Assert.assertEquals(res.getStatusCode(), 201);
+		
 	}
 
 	
