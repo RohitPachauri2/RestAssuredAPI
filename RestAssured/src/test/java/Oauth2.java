@@ -23,6 +23,7 @@ public class Oauth2 {
 		accesstoken=res.jsonPath().getString("access_token");
 		String scope=res.jsonPath().getString("scope");
 		String appid=res.jsonPath().getString("app_id");
+		System.out.println(appid);
 		
 		System.out.println("access_token: "+accesstoken);
 		System.out.println("app_id: "+appid);
