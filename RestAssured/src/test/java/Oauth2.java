@@ -36,6 +36,7 @@ public class Oauth2 {
 	@Test(dependsOnMethods = "oauth2")
 	public void getmethodoauth2() {
 		String getpath="/v1/invoicing/invoices";
+		System.out.println(getpath);
 		Response getres=given().baseUri(baseuri).auth().oauth2(accesstoken)
 				.queryParam("page", 3)
 				.queryParam("page_size", 4)
