@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JsonIgnoreField">
+      <class name="JsonSchemaValidator">
         <methods>
-          <include name="CreateEmployeeClass"/>
+          <include name="TestMethod"/>
         </methods>
-      </class> <!-- JsonIgnoreField -->
+      </class> <!-- JsonSchemaValidator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
