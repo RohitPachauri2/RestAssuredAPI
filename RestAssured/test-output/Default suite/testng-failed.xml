@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JsonSchemaValidator">
+      <class name="com.practice.practice1">
         <methods>
-          <include name="TestMethod"/>
+          <include name="postrequestlogin"/>
         </methods>
-      </class> <!-- JsonSchemaValidator -->
+      </class> <!-- com.practice.practice1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

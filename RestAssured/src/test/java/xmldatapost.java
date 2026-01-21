@@ -54,7 +54,7 @@ String xmlbody="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 		+ "	<status>available</status>\r\n"
 		+ "</Pet>";
 @Test
-public void getxmldata() {
+public void sendxmldata() {
 RequestSpecification xmlreq=given().baseUri(baseuri)
 .basePath(endpoint).header("Content-Type", "application/json")
 .header("accept","application/xml")

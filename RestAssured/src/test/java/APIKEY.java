@@ -23,14 +23,17 @@ public void getapikeymethod() {
         .queryParam("appid", apiKey)
         .when()
         .get(endpoint);
-
+res.prettyPrint();
     // Print the full response (for debugging)
     System.out.println(res.getBody().asString());
 
     // Parse the response and extract specific details
-    String weatherDescription = res.jsonPath().getString("weather[0].description");
-    String name=res.jsonPath().getString("name");
-    System.out.println("Description: "+weatherDescription+" "+" name: "+name);
+//    String weatherDescription = res.jsonPath().getString("weather[0].description");
+//    String name=res.jsonPath().getString("name");
+//    System.out.println("Description: "+weatherDescription+" "+" name: "+name);
+    
+    System.out.println("wind speed: "+res.jsonPath().getString("wind.speed"));
+    System.out.println("weather: "+res.jsonPath().getString("weather[0].main")+" "+res.jsonPath().getString("weather[0].description"));
 	
 }
     
