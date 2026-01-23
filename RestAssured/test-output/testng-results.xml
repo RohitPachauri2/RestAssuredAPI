@@ -1,60 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="1" failed="1" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-21T08:39:24 IST" name="Default suite" finished-at="2026-01-21T08:39:29 IST" duration-ms="5506">
+  <suite started-at="2026-01-23T08:02:14 IST" name="Default suite" finished-at="2026-01-23T08:02:18 IST" duration-ms="4100">
     <groups>
     </groups>
-    <test started-at="2026-01-21T08:39:24 IST" name="Default test" finished-at="2026-01-21T08:39:29 IST" duration-ms="5506">
+    <test started-at="2026-01-23T08:02:14 IST" name="Default test" finished-at="2026-01-23T08:02:18 IST" duration-ms="4100">
       <class name="com.practice.practice1">
-        <test-method signature="postrequest()[pri:0, instance:com.practice.practice1@1c1bbc4e]" started-at="2026-01-21T08:39:24 IST" name="postrequest" finished-at="2026-01-21T08:39:27 IST" duration-ms="3314" status="PASS">
+        <test-method signature="testrequestemail()[pri:0, instance:com.practice.practice1@1ce24091]" started-at="2026-01-23T08:02:14 IST" name="testrequestemail" finished-at="2026-01-23T08:02:18 IST" duration-ms="4053" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postrequest -->
-        <test-method signature="postrequestlogin()[pri:0, instance:com.practice.practice1@1c1bbc4e]" started-at="2026-01-21T08:39:27 IST" name="postrequestlogin" finished-at="2026-01-21T08:39:29 IST" duration-ms="2146" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<404> but was:<200>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<404> but was:<200>
-at org.junit.Assert.fail(Assert.java:89)
-at org.junit.Assert.failNotEquals(Assert.java:835)
-at org.junit.Assert.assertEquals(Assert.java:120)
-at org.junit.Assert.assertEquals(Assert.java:146)
-at com.practice.practice1.postrequestlogin(practice1.java:58)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postrequestlogin -->
+        </test-method> <!-- testrequestemail -->
       </class> <!-- com.practice.practice1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
